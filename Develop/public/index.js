@@ -145,10 +145,6 @@ function sendTransaction(isAdding) {
   });
 }
 
-function saveRecord(record){
-  // saving a transaction into indexdb if it is not 
-
-}
 
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
